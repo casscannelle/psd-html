@@ -39,8 +39,8 @@ header {
 }
 
 .menu ul li a {
-    font-size: 17px;
-    font-family: "myriad-pro", sans-serif;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #dc002d;
@@ -48,8 +48,7 @@ header {
 }
 
 .menu ul li a:hover {
-    font-size: 17px;
-    font-family: "myriad-pro", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #ffffff;
@@ -95,14 +94,12 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 13px;
     color:#ffffff;
-    font-family: "myriad-pro", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
     line-height: -2px;
-    padding-right: 50px;
-    padding-top: 10px;
+    padding: 10px 50px 20px 0;
 }
 
 h4 {
@@ -140,6 +137,21 @@ a {
     text-decoration: none;
 }
 
+.previous {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background-color: #970120;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 8px 16px;
+    border-radius: 10%;
+    line-height: -10px;
+
+  }
+  
+.previous:hover{
+    background-color: #7A0019;
+  }
 
 
 #content {
@@ -152,7 +164,7 @@ a {
 
 #section-2 {
     width: 100%;
-    background: linear-gradient(#adadad, #ffffff);
+    background: linear-gradient(#817f7f, #ffffff);
 }
 
 .col {
@@ -172,6 +184,7 @@ a {
     line-height: 15.6pt;
     padding: 5px;
     text-decoration: none;
+    margin: 10px;
     
 }
 
@@ -207,19 +220,25 @@ footer{
 }
 
 .col-2 {
-    width: 33%;
+    width: 28%;
     text-align: left;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 15px;    
 }
 
 .col-3 {
-    width: 23%;
+    width: 3%;
     text-align: left;
 }
 
 .col-4 {
-    width: 33%;
+    width: 25%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.col-5 {
+    width: 38%;
     text-align: right;
     padding-top: 20px;
 }
