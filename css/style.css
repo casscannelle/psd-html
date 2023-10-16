@@ -4,13 +4,6 @@
     
 }
 
-header {
-    padding: 22px 28px 28px;
-    display: flex;
-    flex-direction: row;
-    
-}
-
 #section-1 {
     width: 100%;
     background: linear-gradient( #565656, #252525);
@@ -22,10 +15,17 @@ header {
     background-color: #fff;
 }
 
+header {
+    padding: 22px 28px 28px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
 .menu {
     margin-top: 35px;
-    margin-left: 100px;
-    margin-right: 5px;
+    margin-left: 110px;
+    padding-left: 35px;
 }
 .menu ul {
     list-style: none;
@@ -64,13 +64,20 @@ header {
 #banner{ 
     display: flex;
     flex-direction: row;
+    background-color: #dc002d;
+
 }
 
 .destaque {
     padding: 32px 26px 15px;
     background-color: #dc002d;
 
+}
 
+#carousel {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 }
 
 h1 {
@@ -215,43 +222,45 @@ footer{
 }
 
 .col-1 {
+    width: 50%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    text-align: right;
+    padding-top: 20px;
+}
+.col-3 {
     width: 10%;
     text-align: center;
     padding: 15px;
 }
 
-.col-2 {
+.col-4 {
     width: 28%;
     text-align: left;
     padding-left: 10px;
     padding-top: 15px;    
 }
 
-.col-3 {
+.col-5 {
     width: 3%;
     text-align: left;
 }
 
-.col-4 {
+.col-6 {
     width: 25%;
     text-align: left;
     margin-top: 20px;
 }
 
-.col-5 {
+.col-7 {
     width: 38%;
     text-align: right;
     padding-top: 20px;
 }
 
-.col-6 {
-    width: 50%;
-    text-align: left;
-    margin-top: 20px;
-}
-
-.col-7 {
-    width: 50%;
-    text-align: right;
-    padding-top: 20px;
-}
