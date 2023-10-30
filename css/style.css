@@ -169,8 +169,9 @@ a {
     color: #dc002d;
     text-decoration: none;
 }
-.previous {
-
+#mu-left {
+    color: #fff;
+    background-color: #e8e8e8;
 }
 .previous:hover {
     color: #dc002d;    
