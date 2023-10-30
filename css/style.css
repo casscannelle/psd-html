@@ -169,10 +169,11 @@ a {
     color: #dc002d;
     text-decoration: none;
 }
+.previous {
 
+}
 .previous:hover {
-    background-image:"images/previous_hover.png";
-    
+    color: #dc002d;    
 
   }
   
@@ -201,19 +202,26 @@ a {
 .img {
     padding-top: 7px;
 }
-#btn-saiba-mais {
-    border: 1px solid #dcdcdc;
+.btn-saiba-mais {
+    background-image: url("/images/saibamais.png");
+    background-repeat: no-repeat;
+    width: 100%;
     color: #dc002d;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11pt;
-    line-height: 15.6pt;
+    line-height: 1pt;6
     padding: 5px;
     text-decoration: none;
     
+    
 }
 
-#btn-saiba-mais:hover {
+.btn-saiba-mais:hover {
     color: #333333;
+    background-image: url("/images/saibamais_hover.png");
+    background-repeat: no-repeat;
+
+
 }
 
 
