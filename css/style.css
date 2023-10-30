@@ -4,31 +4,6 @@
     
 }
 
-@font-face {
-    font-family: "microns";
-    font-style: normal;
-    font-weight: normal;
-    src: url("microns.woff2") format("woff2"),
-         url("microns.woff") format("woff"),
-         url("microns.otf") format("opentype"),
-         url("microns.ttf") format("truetype"),
-         url("microns.svg") format("svg");
-  }
-
-  .mu:before {
-    font-family: microns;
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
-    text-decoration: none;
-    font-size: 1em;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    user-select: none;
-  }
-
 #section-1 {
     width: 100%;
     background: linear-gradient( #565656, #252525);
@@ -169,16 +144,6 @@ a {
     color: #dc002d;
     text-decoration: none;
 }
-#mu-left {
-    color: #fff;
-    background-color: #e8e8e8;
-}
-.previous:hover {
-    color: #dc002d;    
-
-  }
-  
-
 
 
 #content {
@@ -204,28 +169,18 @@ a {
     padding-top: 7px;
 }
 .btn-saiba-mais {
-    background-image: url("/images/saibamais.png");
-    background-repeat: no-repeat;
     width: 100%;
     color: #dc002d;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11pt;
-    line-height: 1pt;6
+    line-height: 1pt;
     padding: 5px;
-    text-decoration: none;
-    
-    
+    text-decoration: none;  
 }
 
 .btn-saiba-mais:hover {
     color: #333333;
-    background-image: url("/images/saibamais_hover.png");
-    background-repeat: no-repeat;
-
-
 }
-
-
 
 .section-3 {
     width: 100%;
