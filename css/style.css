@@ -80,6 +80,17 @@ header {
     list-style-type: none;
 }
 
+.material-symbols-outlined{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color:#fff;
+}
+
+
+
 h1 {
     font-size: 35px;
     color:#ffffff;
