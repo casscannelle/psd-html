@@ -74,19 +74,9 @@ header {
 
 }
 
-#carousel {
+.row {
     display: flex;
-    flex-direction: row;
-    list-style-type: none;
-}
-
-.material-symbols-outlined{
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24;
-  color:#fff;
+    justify-content: space-between;
 }
 
 
@@ -117,7 +107,7 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     line-height: -2px;
-    padding: 10px 50px 20px 0;
+    padding: 10px 50px 50px 0;
 }
 
 h4 {
@@ -167,7 +157,7 @@ a {
 
 #section-2 {
     width: 100%;
-    background: linear-gradient(#817f7f, #ffffff);
+    background: linear-gradient(#E7E7E7, #ffffff);
 }
 
 .col {
@@ -179,18 +169,68 @@ a {
 .img {
     padding-top: 7px;
 }
+
+
+.fa-chevron-right {
+    color: #fff;
+    background-color: #920015;
+    padding: 8px 9px;
+    font-size: large;
+    
+}
+
+.fa-chevron-left  {
+    color: #fff;
+    background-color: #920015;
+    padding: 8px 9px;
+    font-size: large;
+    
+}
+
+.fa-chevron-right:hover {
+    color: #fff;
+    background-color: #B1001C;
+    padding: 8px 9px;
+    font-size: large;
+}
+
+.fa-chevron-left:hover {
+    color: #fff;
+    background-color: #B1001C;
+    padding: 8px 9px;
+    font-size: large;
+}
+
 .btn-saiba-mais {
     width: 100%;
     color: #dc002d;
+    border: 1px solid #dcdcdc;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11pt;
-    line-height: 1pt;
+    line-height: 1,5pt;
     padding: 5px;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 .btn-saiba-mais:hover {
     color: #333333;
+    cursor: pointer;
+    
+
+}
+
+.btn-saiba-mais .fa-chevron-right {
+    color: #fff;
+    background-color: #CDCDCD;
+    padding: 4px 8px;
+    font-size: small;
+}
+
+
+.btn-saiba-mais:hover .fa-chevron-right{
+    background-color: #FF2A53;
+    cursor: pointer;
+
 }
 
 .section-3 {
