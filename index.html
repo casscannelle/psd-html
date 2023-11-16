@@ -27,21 +27,51 @@
                     </ul>
                 </div>
             </header>
-        <section id="banner">
-            <img src="./images/banner-01.jpg">
-            <div class="destaque">
-                    <h1>Ferramentaria</h1>
-                    <h3>Fazemos usinagem em materiais ferrosos, não ferrosos, plásticos e elastômetros. Além da fabricação de diversas peças, todas customizadas para a necessidade do cliente, respeitando os desenhos ou amostras.</h3>
-                <div class="row">
+
+<div class="carousel">
+    <div class="destaque">  
+        <div class="slide-row" id="slide">
+            <div class="slide-col">
+                <div class="slide-banner"><img src="./images/banner-01.jpg" alt="img"></div>
+                <div class="slide-text">
+                    <h3>Ferramentaria</h3>
+                    <p>Fazemos usinagem em materiais ferrosos, não ferrosos, plásticos e elastômetros. Além da fabricação de diversas peças, todas customizadas para a necessidade do cliente, respeitando os desenhos ou amostras.</p>
+                </div>
+            </div>
+
+            <div class="slide-col">           
+                <div class="slide-banner"><img src="./images/banner-02.jpg" alt="img"></div>
+                <div class="slide-text">
+                    <h3>Usinagem de precisão</h3>
+                    <p>Fazemos usinagem em materiais ferrosos, não ferrosos, plásticos e elastômetros. Além da fabricação de diversas peças, todas customizadas para a necessidade do cliente, respeitando os desenhos ou amostras.</p>
+                </div>
+            </div>
+
+            <div class="slide-col">
+                <div class="slide-banner"><img src="./images/banner-03.jpg" alt="img"></div>
+                <div class="slide-text">
+                    <h3>Modelação</h3>
+                    <p>Fazemos usinagem em materiais ferrosos, não ferrosos, plásticos e elastômetros. Além da fabricação de diversas peças, todas customizadas para a necessidade do cliente, respeitando os desenhos ou amostras. </p>
+                </div>
+            </div>
+        </div>
+
+            <section class="slider_nav">
+                <div class="chevron">
                     <div class="col">
                         <a href="#" class=""><i class="fa-solid fa-chevron-left"></i></a>
                         <a href="#" class=""><i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
-                
-            </div>
-        </section>
-    </section>
+                <div class="indicator">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div> 
+            </section>
+    </div>
+</div>
+                      
     <section id="section-2">
         <div class="container">
                 <section id="content">
@@ -65,7 +95,7 @@
         </div>
     </section>
 
-    <section class="section-3">
+    <section id="section-3">
         <footer>
             <div class="container-footer">
                     <div class="col-3">
@@ -94,5 +124,34 @@
                 </div>
         </footer>
     </section> 
+
+<script>
+    var btn = document.getElementsByClassName("btn");
+    var slide = document.getElementById("slide");
+
+    btn[0].onclick = function () {
+        slide.style.transform = "translateX(0px)";
+        for(i=0; i<3; i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+
+    btn[1].onclick = function () {
+        slide.style.transform = "translateX(-990px)";
+        for(i=0; i<3; i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+
+    btn[2].onclick = function () {
+        slide.style.transform = "translateX(-1980px)";
+        for(i=0; i<3; i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    </script>
 </body>
 </html>
